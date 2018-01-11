@@ -1,0 +1,23 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "demo project for omni-attachment directive",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower-resolve-webpack-plugin": "^1.0.4",
+    "bower-webpack-plugin": "^0.1.9",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-css-loaders": "^1.0.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}

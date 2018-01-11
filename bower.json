@@ -1,0 +1,23 @@
+{
+  "name": "demo-project",
+  "description": "demo project for omni-attachment directive",
+  "main": "index.js",
+  "authors": [
+    "ZiOS <zakaria.kaoukab@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "attachment.directive": "https://github.com/zios07/attachment-directive.git"
+  },
+  "resolutions": {
+    "angular": "1.5.11"
+  }
+}
