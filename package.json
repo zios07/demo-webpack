@@ -5,17 +5,25 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "postinstall": "bower install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap-loader": "^2.2.0",
+    "bootstrap-sass": "^3.3.7",
     "bower-resolve-webpack-plugin": "^1.0.4",
     "bower-webpack-plugin": "^0.1.9",
     "css-loader": "^0.28.8",
     "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "resolve-url-loader": "^2.2.1",
+    "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-css-loaders": "^1.0.0",
     "webpack-dev-server": "^2.10.1"

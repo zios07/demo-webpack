@@ -1,14 +1,18 @@
 require('../css/style.css')
-require('../../bower_components/angular/angular.js');
-require('../../bower_components/attachment.directive/attachment.module.js');;
-require('../../bower_components/attachment.directive/attachment.config.js');
-require('../../bower_components/attachment.directive/attachment.service.js');
-require('../../bower_components/attachment.directive/attachment.directive.js');
-require('../../bower_components/attachment.directive/style.css');
+require('angular')
+require('jquery')
+require('bootstrap/dist/css/bootstrap.min.css')
 
 angular.module('app', [])
     .controller('Controller', function($scope){
-        $scope.hello = function(){
+
+        $scope.id = "99";
+        $scope.className = "Class 1";
+        $scope.applicationName = "Service 1";
+        $scope.mode = "write";
+        $scope.criteria = "";
+
+        $scope.sayhi = function(){
             alert('Hello there!');
         }
 
